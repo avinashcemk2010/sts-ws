@@ -1,0 +1,14 @@
+import java.text.DecimalFormat;
+
+public class PairCount {
+	
+	public static void main(String[] args) {
+		
+		double PI = 3;
+		DecimalFormat df = new DecimalFormat("###.###");
+		System.out.println(df.format(PI));
+		
+	}
+}
+
+

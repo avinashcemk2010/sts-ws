@@ -1,0 +1,7 @@
+package com.luv2code.springboot.crud.demo.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class EmployeeRepository implements JpaRepository<T, ID> {
+
+}

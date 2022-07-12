@@ -1,0 +1,15 @@
+import java.text.DecimalFormat;
+
+public class PairCount {
+	
+	public static void main(String[] args) {
+		
+		double PI = 3.2345;
+		System.out.printf("Value with 3 digits after decimal point %.3f %n", PI);
+		DecimalFormat df = new DecimalFormat("###.###");
+		System.out.println(df.format(PI));
+		
+	}
+}
+
+

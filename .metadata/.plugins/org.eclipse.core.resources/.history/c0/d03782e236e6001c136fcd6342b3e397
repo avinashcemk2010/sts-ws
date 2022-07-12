@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class PairCount {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public void getPairCount(List weight) {
+		Map<Double, Integer> map = new HashMap<>();
+		for(int i=0;i<weight.size();i++) {
+			if(map.containsKey(weight.get(i))) {
+				map.put((Double) weight.get(i), map.get(weight.get(i)) +1);
+			} else {
+				map.put((Double)weight.get(i), 1);
+			}
+		}
+		System.out.println(map);
+	}
+
+}
